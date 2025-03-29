@@ -2,9 +2,13 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+var test = "testing~~~~" //this is the changin variable which will be read within the web page as a paragraph
+
+
 
 function App() {
   const [count, setCount] = useState(0)
+  
 
   return (
     <>
@@ -22,7 +26,7 @@ function App() {
           count is {count}
         </button>
         <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
+          This will read the changing var {test}
         </p>
       </div>
       <p className="read-the-docs">
